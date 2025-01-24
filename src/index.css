@@ -1,0 +1,121 @@
+/*NavBar*/
+.navbar>.container{
+  flex-direction: row !important;
+}
+.navbar-expand-lg .navbar-collapse{
+  justify-content: flex-end;
+}
+.navbar{
+  background: linear-gradient(100deg ,#740000,#bf0000,#740000) !important;
+  width: 100%;
+  box-shadow: 0 0 3rem black;
+}
+.navbar-nav{
+  align-items: flex-start !important;
+}
+.navbar-toggler{
+   border: none !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+.icon1{
+  color:  white;
+}
+
+.nav-item:hover{
+  /*text-decoration: underline;*/
+  border-bottom: 3px solid #ffffff;
+  color:#fff!important;
+}
+
+
+.navbar-nav .nav-item{
+  float: right !important;
+}
+
+.nav-link{
+  position: relative;
+}
+
+.nav-link:hover{
+  /*text-decoration: underline;*/
+  border-bottom: 3px solid #ffffff;
+
+}
+.navbar-link::after{
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+}
+.navbar-link:hover::after{
+  opacity: 1;
+}
+
+.speed{
+  width: 150px;
+  height: 48px;
+  filter: drop-shadow(0px 0px 4px #ffffff)
+}
+.link{
+  text-decoration: none;
+  color: #ffffff73;
+  padding-right: 15px;
+}
+.link:hover{
+  color: white;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 1685px) {
+  .navbar-nav{
+    padding-left: 80% !important ;
+  }
+  .speed{
+    width: 150px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-nav{
+    padding-left: 40% !important ;
+  }
+  .speed{
+    width: 150px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .navbar-nav{
+    padding-left: 0 !important ;
+  }
+  .speed{
+    width: 150px;
+    height: 45px;
+  }
+  .nav-link:hover{
+    /*text-decoration: underline;*/
+    border-bottom: 3px solid #ffffff;
+    width: 80px;
+  }
+}
+/* NavBar Fin */
+
+/* Pagina no encontrada */
+.notfound{
+  margin-top: 70px;
+}
+
+/* Formulario */
+.formulario{
+  height: 94vh;
+}

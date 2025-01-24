@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Fraunces&display=swap');
+
+.contenedorProductos{
+    background-color: rgb(255, 243, 77);
+    height: 100vh;
+}
+
+.contenedorProductos h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'Aoboshi One', serif;
+    color: white;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 4px #000000)
+
+}
+

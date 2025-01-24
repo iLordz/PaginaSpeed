@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+
+.formulario{
+	background-color: #ededed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	height: 100%;
+}
+
+.row{
+    max-width: 1170px;
+    display: grid;
+    grid-gap: 5rem 0;
+    overflow-x: hidden;
+    padding: 2rem 0;
+}
+
+.formulario h2 { 
+	font-weight: bold;
+	margin: 0;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+.row .contentWrapper1{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+.row .contentWrapper1 h2{
+	padding-bottom: 29px;
+}
+
+.row .contentWrapper1 p{
+	padding-bottom: 20px;
+}
+
+.pin{
+	padding-bottom: 5px;
+}
+@media screen and (max-width: 991px) {
+	h2 {
+		font-weight: bold;
+		margin: 0;
+	}
+
+}

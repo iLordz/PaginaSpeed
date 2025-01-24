@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+.cartas__textos h2{
+    font-family: 'Francois One', sans-serif;
+    margin-top: 10px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+
+
+.sucursales1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.sucursales2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sucursales3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+
+.sucursales__fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 2px;
+    background-color: rgba(255, 255, 255, 0.296);
+}
+
+.sucursales__fotos h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sansita', sans-serif;
+}
+
+.sucursales__fotos p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Sansita', sans-serif;
+
+}
+
+.sucursales__fotos img{
+    width: 300px;
+    height: 200px;
+}
+
+
+@media (max-width: 1030px) {
+	.sucursales1, .sucursales2, .sucursales3{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height:auto;
+        
+	}
+}
+
+.contenedorUbicaciones{
+    width: 100%;
+    height: 150%;
+    background-color: #fdc886;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}

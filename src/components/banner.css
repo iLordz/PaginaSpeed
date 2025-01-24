@@ -1,0 +1,85 @@
+.contenedor {
+    background-image: url(../assets/fondofrutas2.jpg);
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.row{
+    width: 70%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem 0;
+    overflow-x: hidden;
+    padding: 2rem 0;
+}
+
+.row .imgLogo{
+    overflow: hidden;
+}
+
+.row .imgLogo img{
+    object-fit: cover;
+    width: 100%;
+    margin-top: 130px;
+}
+
+
+.row  .contentWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row  .contentWrapper h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.row  .contentWrapper p{
+    font-size: 16;
+    line-height: 25px;
+    color: white;
+}
+
+
+@media (max-width: 991px) {
+	.row{
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+    .row  .contentWrapper{
+        padding-left: 0;
+    }
+
+    .row .imgLogo{
+        overflow: hidden;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .row .imgLogo img{
+        object-fit: cover;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .row{
+        width: 90%;
+    }
+    .row  .contentWrapper h2{
+        font-size: 30;
+        padding-bottom: 20;
+    }
+    
+    .row  .contentWrapper p{
+        line-height: 24px;
+
+    }
+}

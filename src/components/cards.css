@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+:root{
+	--white-text:#ffffff53;
+	--background:#c8e8f1;
+	--black-text:rgb(68, 66, 66)	
+	--prueba: (180deg,#21c8f6,#637bff);
+}
+
+.container{
+    background-color: #b3110e;
+
+}
+.contenedor4{
+    background-color: #b3110e;
+    border: 4px dashed rgb(0, 0, 0);
+}
+
+
+
+.background1-left-column{
+	background: linear-gradient(180deg,#ff0400,#ff4545ec);
+}
+
+
+.background2-left-column{
+	background: linear-gradient(180deg ,#ffee00,#ded44ab7);
+}
+
+.background3-left-column{
+	background: linear-gradient(180deg ,#299900,#6def3e);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	border: none;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+
+    align-items: center;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.card {
+	background-color:var(--white-text);
+	border-radius: 1rem;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.838);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+	width: 420px;
+	height: 300px;
+}
+
+.card h6 {
+	opacity: 0.6;	
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+.card  h2 {
+	letter-spacing: .1rem;
+	margin: 1rem 0;
+	color: var(black-text);
+	font-family: 'Sansita', sans-serif;
+	font-size: 35px;
+}
+
+/* */
+.card2 {
+	background-color:var(--white-text);
+	border-radius: 1rem;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.838);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.card2 h6 {
+	color: rgba(255, 255, 255, 0.3);
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+.card2  h2 {
+	letter-spacing: .1rem;
+	margin: 1rem 0;
+	color: var(black-text);
+	font-family: 'Sansita', sans-serif;
+	font-size: 35px;
+	color: black;
+}
+.cartas__textos1 h2{
+	padding-top: 15px;
+	text-align:center;
+	font-family: 'Francois One', sans-serif;
+	color: white;
+	text-shadow: 3px 3px rgb(2, 2, 2);
+}
+
+/**/
+
+.left-column {	
+	color: var(--white-text);
+	padding: 2rem;
+	max-width: 10rem;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column h2{
+	color: var(--white-text);
+}
+
+.left-column i {
+	font-size: 0rem
+}
+
+.right-column {
+	padding: 30px;
+	width: 100%;
+	padding-top: 90px;
+    flex-direction: column;
+    justify-content: space-between;
+	
+}
+
+.right-column2 {
+	padding: 30px;
+	width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+	
+}
+
+.right-column p{	
+
+	font-size: 14px;
+	font-family: 'Sansita', sans-serif;
+
+}
+
+
+.right-column2 p{	
+	font-family: 'Sansita', sans-serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+
+.right-column2 li{	
+	list-style: disc outside;
+	font-size: 14px;
+	font-family: 'Sansita', sans-serif;
+	color: black;
+}
+
+.right-column2 b{	
+	list-style: disc outside;
+	font-size: 14px;
+	font-family: 'Sansita', sans-serif;
+	color:black
+}
+
+.button {
+	border-radius: 3rem;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: var(--white-text);
+	font-size: 1.2rem;
+	padding: .8rem 1.5rem;
+	letter-spacing: .1rem;
+	align-self: flex-end;
+}
+
+.mision, .vision, .valores{
+	height: 60px;
+}
+
+
+@media (max-width: 1030px) {
+	.container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height:auto;
+	}
+	.container2{
+		flex-direction: column;
+
+		align-items: center;
+		height:auto;
+	}
+	
+  }
